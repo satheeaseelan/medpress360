@@ -1,0 +1,98 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+/*navbar*/
+nav{
+    margin: 20px 30px;
+    font-size: 1.2rem;
+}
+.span{
+    font-size:50px;
+}
+.profile{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.search-click {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 200px;
+    background-position: 20px;
+    border-radius: 7px;
+    width: 400px;
+    height: 300px;
+    padding: 25px;
+    transition: all 1s;
+   
+  }
+  
+  .search-click {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    
+  }
+  .search-click input {
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    right: 20%;
+    padding: 10px;
+  }.search-click {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 200px;
+    background-position: 20px;
+    border-radius: 7px;
+    width: 400px;
+    height: 300px;
+    padding: 25px;
+    transition: all 1s;
+  }
+  .search-click {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+  }
+  .search-click input {
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    right: 20%;
+    padding: 10px;
+  }
+  .active{
+      font-weight: 900;
+  }
+
+
+  /******    Top menu section          ******/
+  nav.topMenu {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  nav.topMenu .bi-chevron-down {
+    vertical-align: -0.16em;
+  }
+  nav.topMenu .vr { 
+    align-self: center;
+    font-size:  35px;
+  }
+  .topRightMenu a {
+    padding-right: 10px;
+    color: #6c757d;
+  }
+  #mhpNav {
+
+  }
+  #mhpVr {}
+  

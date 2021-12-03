@@ -1,0 +1,35 @@
+/* article cards css */
+section.article-content {
+    padding: 40px 0;
+}
+.bg-article .paragraph {
+    font-size: 14px;
+}
+
+.bg-article {
+    background-color: rgba(234, 238, 246, 0.719);
+}
+
+.set {
+    padding: 0 !important;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+}
+
+.card {
+    height: 120px;
+}
+
+.journal {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*above four cards css*/
+
+.card-height {
+    height: 235px;
+    background-color: rgba(234, 238, 246, 0.719) !important;
+}

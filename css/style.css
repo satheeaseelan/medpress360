@@ -1,0 +1,118 @@
+.card-border{
+    border-radius: 10px;
+}
+.text-center{
+    text-align: center;
+    margin-left: 30px;
+}
+.bx{
+    margin-left: 10px; 
+    font-size: 25px !important;
+}
+.card-body{
+    font-size: 14px;
+}
+.abs_clr{
+    background-color: lightblue;
+    height: 30px;
+
+}
+.contentStyle01 {
+
+}
+.contentStyle01 .btn{
+    border:none;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(194, 219, 230);
+}
+.abstract{
+    padding-right:135px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.content{
+    font-weight: bold;
+}
+.microrna{
+    font-weight: bold;
+}
+  .bx_download{
+    font-size: 21px;
+} 
+/* .btn-btn_download{
+    border-radius: 5px;
+
+} */
+.button_article{
+    border-radius: 4px !important;
+    font-size: 20px;
+}
+.download_article{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: -35px;
+    display: inline-block;
+   
+}
+.down_art{
+height: 30px;
+border: 1px solid;
+}
+.microrna_para{
+    font-size: 13px;
+}
+.abs_para{
+    font-weight: bold;
+}
+.card_height{
+    height: 570px;
+}
+.int_para{
+    font-weight: bold;
+}
+.int_para1{
+    font-size: 15px;
+}
+.abs_para1{
+    font-size: 15px;
+}
+.tweets{
+    font-weight: bold;
+}
+.tweets_para{
+    font-size: 13px;
+}
+.prasan_text-clr{
+color: cornflowerblue;
+}
+.img_profile{
+    width: 24%;
+}
+.bx-heart{
+    font-size: 30px;
+    margin-top: 25px;
+}
+.heart_span{
+    padding-left: 102px;
+    margin-top: 30px;
+    
+}
+.prasanna_blog{
+    font-size: 12px;
+}
+
+
+/*****  Footer   *****/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: #183663;
+}
+.backg{
+    background-color: #0f1928;
+}
