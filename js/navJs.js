@@ -8,5 +8,6 @@ window.addEventListener('click', function(e){
     document.getElementById("mhpVr").style.display = "flex";
     document.getElementById("mhpNav").style.display = "flex";
     document.getElementById("searchExtend").classList.remove("w-100");
+    document.getElementById("mhpVr").classList.remove("d-none");
   }
 })
