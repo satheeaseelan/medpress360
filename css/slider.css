@@ -76,7 +76,7 @@ nav{
     padding:7% 10%;
     background-image: url('../imgs/bannerbg02.png');
     background-repeat: no-repeat;
-    background-size: 1700px 550px;
+    background-size: 1700px ;
     height: 550px;
 }
 .maintitle3{
@@ -84,8 +84,11 @@ nav{
     padding:7% 10%;
     background-image: url('../imgs/bannerbg03.png');
     background-repeat: no-repeat;
-    background-size: 1700px 550px;
+    background-size: 1700px;
+    height: 550px;
+    
     text-align: center;
+    
 }
 .bannerbg{
     width: 80%;
@@ -94,6 +97,7 @@ nav{
     color: #105ED3;
 }
 .art1{
+    font-family: 'Saira Stencil One', cursive;
     font-size: 56px;
     color:#ffffff;
 }
@@ -106,6 +110,13 @@ nav{
 }
 .title2,.title3{
     color: #ffffff;
+}
+.line{
+    border: 3px solid #ffffff;
+    width:40%;
+    margin: auto;
+    
+    
 }
 .sub-title1{
     font-family: 'Poppins',sans-serif;
@@ -126,17 +137,20 @@ nav{
 .sub-title3{
     font-family: 'Poppins',sans-serif;
     font-weight: 900;
-   
+   font-size: 16px;
     color: #3F3351;
     margin-top: 30px;
     transform:skew(25deg);
+    width: fit-content;
+   
     
 }
 .sub-title-box{
-    background-color: #dba849;
+    background-color: #fcb425;
     transform:skew(-25deg);
-    width: 27%;
-    margin-left: 500px;
+    width:fit-content;
+    margin: auto;
+    display:block;
 }
 .btn1{
     margin-top: 15px;
@@ -280,11 +294,7 @@ nav{
     font-size: 1.3rem;
    
 }
-.line{
-    border-top: 3px solid #ffffff;
-    width: 40%;
-    margin-left: 400px;
-}
+
 .advisoryprasannaimg,.advisorysanjivimg{
     width: 50px;
     height: 50px;
