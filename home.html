@@ -27,61 +27,64 @@
 
 <body>
     <div>
+        <!-- header part - top nav Starts here -->
         <div>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light topMenu">
-                <div class="container-fluid">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light topMenu">
+                    <div class="container-fluid">
 
-                    <a class="navbar-brand" href="#"><img src="imgs/logowithtext.png" /></a>
-                    <div class="d-none d-lg-block vr" id="mhpVr"></div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <a class="navbar-brand" href="home.html"><img src="imgs/logowithtext.png" /></a>
+                        <div class="d-none d-lg-block vr" id="mhpVr"></div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                    <div class="collapse navbar-collapse" id="navbarScroll">
-                        <ul id="mhpNav" class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Journal info <i class="bi bi-chevron-down"></i>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul id="mhpNav" class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="journal.html" id="navbarScrollingDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Journal info <i class="bi bi-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                        <li><a class="dropdown-item" href="journal.html">Journal info 01</a></li>
+                                        <li><a class="dropdown-item" href="journal.html">Journal info 02</a></li>
+                                        <li><a class="dropdown-item" href="journal.html">Journal info 03</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="submisssion.html">Submit manuscript</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="samplePub.html">Sample pub</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex" id="searchExtend">
+                                <form class="w-100 me-3">
+                                    <input id="searchInputBox" type="search" class="form-control"
+                                        placeholder="Search..." aria-label="Search" style="width: 100%;">
+                                </form>
+                            </div>
+                            <div class="text-end topRightMenu" style="float: right">
+                                <a class="profile" href="singin.html">Register</a>
+                                <a class="profile" href="login.html">Login</a>
+                                <a href="#">
+                                    <img src="imgs/profileimg.png" alt="mdo" width="32" height="32"
+                                        class="rounded-circle">
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                    <li><a class="dropdown-item" href="#">Journal info 01</a></li>
-                                    <li><a class="dropdown-item" href="#">Journal info 02</a></li>
-                                    <li><a class="dropdown-item" href="#">Journal info 03</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#">Submit manuscript</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#">Sample pub</a>
-                            </li>
-                        </ul>
-                        <div class="d-flex" id="searchExtend">
-                            <form class="w-100 me-3">
-                                <input id="searchInputBox" type="search" class="form-control" placeholder="Search..."
-                                    aria-label="Search" style="width: 100%;">
-                            </form>
-                        </div>
-                        <div class="text-end topRightMenu" style="float: right">
-                            <a class="profile" href="#">Register</a>
-                            <a class="profile" href="#">Login</a>
-                            <a href="#">
-                                <img src="imgs/profileimg.png" alt="mdo" width="32" height="32" class="rounded-circle">
-                            </a>
-                        </div>
+                            </div>
 
+                        </div>
                     </div>
-                </div>
-            </nav>
-        </header>
-    </div>
+                </nav>
+            </header>
+        </div>
+        <!-- header part - top nav Endss here -->
         <!--Title part-->
         <section class="maintitle">
             <div class="row">
@@ -317,28 +320,27 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid bg">
-
+            <div class="container-fluid bg footer-links mt-5">
                 <div class="row">
                     <div class="col-sm-3 mt-5 mb-5 ps-5 text-white">
                         <h6>Journal information</h6>
                         <ul>
-                            <li>Aims & Scope</li>
-                            <li>Editorial Board</li>
-                            <li>Submission Guidelines</li>
-                            <li>Contact Editorial Office</li>
-                            <li>Submit your Menuscript</li>
+                            <li><a href="overview.html">Aims & Scope</a></li>
+                            <li><a href="editorialBoard.html">Editorial Board</a></li>
+                            <li><a href="submisssion.html">Submission Guidelines</a></li>
+                            <li><a href="journal.html">Contact Editorial Office</a></li>
+                            <li><a href="submisssion.html">Submit your Menuscript</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 mt-5 mb-5 text-white">
                         <h6>Site map</h6>
                         <ul>
-                            <li>About MedPress360</li>
-                            <li>Contact us</li>
-                            <li>Privacy policy</li>
+                            <li><a href="aboutmp.html">About MedPress360</a></li>
+                            <li><a href="journal.html">Contact us</a></li>
+                            <li><a href="privacyPolicy.html">Privacy policy</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 mt-5 mb-5"><img src="imgs/whitelogo.png" alt=""></div>
+                    <div class="col-sm-3 mt-5 mb-5"><a href="home.html"><img src="imgs/whitelogo.png" alt=""></a></div>
                 </div>
             </div>
             <div class="col-lg-12 backg text-white">

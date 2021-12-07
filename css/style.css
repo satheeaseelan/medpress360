@@ -116,3 +116,13 @@ ul {
 .backg{
     background-color: #0f1928;
 }
+.footer-links h6 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer-links a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
