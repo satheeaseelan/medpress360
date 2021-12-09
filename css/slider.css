@@ -7,7 +7,6 @@ body{
 nav{
     margin: 20px 30px;
     font-size: 1.1rem;
-    
 }
 .navbar-brand{
     width: 250px;
@@ -21,7 +20,6 @@ nav{
 .span{
     font-size:50px;
     font-weight: 200;
-    
 }
 /*Search bar*/
 .search-click {
@@ -38,7 +36,6 @@ nav{
   .search-click:focus {
     width: 500px;
     padding-left: 50px;
-    
   }
   .search-click {
     position: relative;
@@ -69,7 +66,6 @@ nav{
 .maintitle1{
     font-family: 'Poppins', sans-serif;
     padding:5% 10%;
-    
 }
 .maintitle2{
     font-family: 'Poppins', sans-serif;
@@ -86,9 +82,7 @@ nav{
     background-repeat: no-repeat;
     background-size: 1700px;
     height: 550px;
-    
     text-align: center;
-    
 }
 .bannerbg{
     width: 80%;
@@ -105,18 +99,16 @@ nav{
     font-family: 'Poppins', sans-serif; 
     font-weight: bold;
     font-size: 38px;
-    
-    
 }
 .title2,.title3{
     color: #ffffff;
 }
-.line{
-    border: 3px solid #ffffff;
+.line2{
+    border: 2px solid #ffffff;
     width:40%;
     margin: auto;
-    
-    
+    background: #ffffff;
+    display: block;
 }
 .sub-title1{
     font-family: 'Poppins',sans-serif;
@@ -142,8 +134,6 @@ nav{
     margin-top: 30px;
     transform:skew(25deg);
     width: fit-content;
-   
-    
 }
 .sub-title-box{
     background-color: #fcb425;
@@ -161,12 +151,19 @@ nav{
 }
 /*Main title end*/
 /*sub-title*/
-.Aims-and-scope{
+.aims-and-scope{
     background-color: #105ED3;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 3% 20% 1% 20%;
 }
+.aims-and-scope1{
+    background-color: #dbe5f4;
+    color: #42494b;
+    text-align: center;
+    padding: 3% 20% 1% 20%;
+}
+
 .aims{
     font-family: 'Poppins' sans-serif; 
     font-size: 24px;
@@ -174,17 +171,23 @@ nav{
 }
 /*subtitle aims and scope end*/
 /*Details about aims and scope*/
-.Aims-and-scope-details{
+.aims-and-scope-details{
     background-color: #105ED3;
-    color:#fff;
+    color:#ffffff;
     padding: 0% 9% 2%;
 }
-.Aims-and-scope-paragraph{
-    font-size: 18px;
+.aims-and-scope-details1{
+    background-color:#dbe5f4;
+    color:#42494b;
+    padding: 0% 9% 2%;
+
+}
+.aims-and-scope-paragraph{
+    font-size: 16px;
 }
 .list{
     padding:5px;
-    font-size: 18px;
+    font-size: 16px;
 }
 /*Details about aims and scope end*/
 .publication{
@@ -199,12 +202,10 @@ nav{
     width: 300px;
     height: 300px;
     padding-left: 25px;
-    
 }
 .descriptionheading{
     font-size: 1.1rem;
     font-weight: 900;
-    
 }
 .descriptionpara{
     padding-top: 10px;
@@ -219,24 +220,21 @@ nav{
     padding: 20px 0px 0px 20px;
     border-radius: 7px 25px 7px 25px;
 }
-
-
-/* editorial board*/
+/* ----------------editorial board-------------*/
 .editorial-board{
-   margin-left: 14.5%;
-   
+   margin-left: 14.5%; 
 }
 .editorial-heading{
     padding-top: 30px;
     padding-bottom: 20px;
     font-size: 2rem;
+    font-style: normal;
     font-weight: bold;
     justify-content: center;
-   
 }
 .editorial-para{
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-right: 12%;
 }
 /*editor in chief*/
@@ -244,17 +242,17 @@ nav{
     margin-top: 60px;
     background-color:#105ED3;
     padding: 3% 15% 3%;
-    
     color: #fff;
-    
-    
+    display: block;
 }
 .editor-in-chief-heading{
     font-size: 1.2rem;
-    
     color: #fff;
     font-weight: 700;
-    
+}
+line1{
+    border: 1px solid #293132;
+    width:auto;
 }
 .prasannaimg,.sanjivimg{
     height: 185px;
@@ -263,7 +261,7 @@ nav{
     padding-bottom: 20px;
 }
 .prasana-degree,.sanjiv-degree{
-    font-weight: 900;
+    font-weight: 700;
     font-size: 0.95rem;
 }
 .prasanna-place,.sanjiv-place{
@@ -272,29 +270,18 @@ nav{
 }
 .prasanna-details,.sanjiv-details{
     margin-right: 15%;
-    
 }
 
-.prasanna,.sanjiv{
-    width: 40%;
-    
-}
-.sanjiv{
-    margin-left: 90px;
-}
-.prasanna{
-    margin-left: 60px;
+.editorial-advisory-title{
+    display: block;
 }
 .editorial-advisory-board-heading{
     margin-top: 80px;
     padding-bottom: 10px;
-    margin-left: 60px;
-    
+    margin-left: 60px; 
     font-weight: 900;
     font-size: 1.3rem;
-   
 }
-
 .advisoryprasannaimg,.advisorysanjivimg{
     width: 50px;
     height: 50px;
@@ -303,7 +290,7 @@ nav{
 }
 .profile-details{
     margin-left: 35px;
-    font-weight: 900;
+    font-weight: 700;
 }
 .university{
     font-weight:500 ;
@@ -323,6 +310,5 @@ nav{
 }
 .expert-para{
     font-weight: 700;
-    
 }
     
