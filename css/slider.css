@@ -104,12 +104,16 @@ nav{
     color: #ffffff;
 }
 .line2{
-    border: 2px solid #ffffff;
-    width:40%;
+    border-bottom: 5px solid #ffffff;
+    width: 500px;
     margin: auto;
-    background: #ffffff;
+    font-size: 0px;
+    
     display: block;
+
+    
 }
+
 .sub-title1{
     font-family: 'Poppins',sans-serif;
     font-style: italic;
@@ -195,29 +199,33 @@ nav{
 }
 
 .description{
-    background-color: #F7F7F7;
-    font-weight: 500;
-    font-size: 1rem;
+    background-color: #F3F5F8;
+    border-radius: 4px;
     margin: 15px;
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     padding-left: 25px;
 }
 .descriptionheading{
-    font-size: 1.1rem;
-    font-weight: 900;
+    font-family: 'Roboto'sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #293132;
 }
 .descriptionpara{
+    font-family: 'Roboto'sans-serif;
+    font-size: 14px;
     padding-top: 10px;
+    font-weight: 400;
 }
 .symbol{
-    background-color: #E8F0F2;
-    width: 70px;
-    height: 70px;
+    background-color: #c7d2e3;
+    width: 64px;
+    height: 64px;
     position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px 0px 0px 20px;
+    padding: 17px 0px 0px 15px;
     border-radius: 7px 25px 7px 25px;
 }
 /* ----------------editorial board-------------*/
@@ -227,14 +235,14 @@ nav{
 .editorial-heading{
     padding-top: 30px;
     padding-bottom: 20px;
-    font-size: 2rem;
+    font-size: 24px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     justify-content: center;
 }
 .editorial-para{
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
     margin-right: 12%;
 }
 /*editor in chief*/
@@ -246,32 +254,32 @@ nav{
     display: block;
 }
 .editor-in-chief-heading{
-    font-size: 1.2rem;
+    font-size: 16px;
     color: #fff;
     font-weight: 700;
 }
-line1{
-    border: 1px solid #293132;
-    width:auto;
-}
+
 .prasannaimg,.sanjivimg{
-    height: 185px;
-    width: 135px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    height: 120px;
+    width: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .prasana-degree,.sanjiv-degree{
-    font-weight: 700;
-    font-size: 0.95rem;
+    font-weight: 500;
+    font-size: 14px;
 }
 .prasanna-place,.sanjiv-place{
-    font-size: 0.78rem;
-    color:#d1dddd;
+    font-family: 'Roboto'sans-serif;
+    font-size: 12px;
+    color:#ffffff;
+    display: flex;
 }
 .prasanna-details,.sanjiv-details{
     margin-right: 15%;
+    font-size: 14px;
+    font-weight: 400;
 }
-
 .editorial-advisory-title{
     display: block;
 }
@@ -279,21 +287,22 @@ line1{
     margin-top: 80px;
     padding-bottom: 10px;
     margin-left: 60px; 
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.3rem;
 }
 .advisoryprasannaimg,.advisorysanjivimg{
-    width: 50px;
-    height: 50px;
-    margin-left: 10px; 
-    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    
 }
 .profile-details{
+    font-size: 16px;
+    font-weight: 500;
     margin-left: 35px;
-    font-weight: 700;
 }
 .university{
-    font-weight:500 ;
+    font-size: 14px;
+    font-weight:400 ;
 }
 /*expert heading*/
 .expert-peer-review-process{
@@ -303,12 +312,12 @@ line1{
     /*padding-bottom: 300px;*/
 }
 .expert-heading{
-    font-size: 1.2rem;
-    font-weight: 900;
+    font-size: 16px;
+    font-weight: 700;
     padding-bottom: 15px;
     margin-left: 10px;
 }
 .expert-para{
-    font-weight: 700;
+    font-weight: 400;
 }
     
