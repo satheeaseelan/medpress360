@@ -179,6 +179,7 @@ nav{
     background-color: #105ED3;
     color:#ffffff;
     padding: 0% 9% 2%;
+    display: block;
 }
 .aims-and-scope-details1{
     background-color:#dbe5f4;
@@ -207,7 +208,7 @@ nav{
     padding-left: 25px;
 }
 .description:hover{
-    background-color: #EAECEC;
+    background-color: #EAEAEA;
 }
 .descriptionheading{
     font-family: 'Roboto'sans-serif;
@@ -241,7 +242,7 @@ nav{
     
 }
 .recent:hover{
-    background-color: #EAECEC;
+    background-color: #EAEAEA;
     border-bottom: 0;
 }
 
