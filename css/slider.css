@@ -198,7 +198,6 @@ nav{
     padding: 50px 0px 50px 80px;
     justify-content: center;
 }
-
 .description{
     background-color: #F3F5F8;
     border-radius: 4px;
@@ -235,9 +234,15 @@ nav{
 /*Recent articel*/
 .article{
     background-color: #F9FAFB;
+   
+}
+.article-space{
+    padding-top: 20px;
+    
 }
 .recent:hover{
     background-color: #EAECEC;
+    border-bottom: 0;
 }
 
 /* ----------------editorial board-------------*/
