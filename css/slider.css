@@ -1,7 +1,7 @@
 body{
     font-family: 'Open sans',sans-serif; 
     justify-content: center;
-    background: #e5e5e5;
+    background: #f9fafb;
 }
 /*navbar section*/
 nav{
@@ -195,7 +195,8 @@ nav{
 }
 /*Details about aims and scope end*/
 .publication{
-    padding:50px 0px 50px 170px;  
+    padding: 50px 0px 50px 80px;
+    justify-content: center;
 }
 
 .description{
@@ -205,6 +206,9 @@ nav{
     width: 280px;
     height: 280px;
     padding-left: 25px;
+}
+.description:hover{
+    background-color: #EAECEC;
 }
 .descriptionheading{
     font-family: 'Roboto'sans-serif;
@@ -228,6 +232,14 @@ nav{
     padding: 17px 0px 0px 15px;
     border-radius: 7px 25px 7px 25px;
 }
+/*Recent articel*/
+.article{
+    background-color: #F9FAFB;
+}
+.recent:hover{
+    background-color: #EAECEC;
+}
+
 /* ----------------editorial board-------------*/
 .editorial-board{
    margin-left: 14.5%; 
@@ -321,3 +333,5 @@ nav{
     font-weight: 400;
 }
     
+/*Footer part*/
+
