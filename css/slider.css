@@ -202,7 +202,7 @@ nav{
 .description-link{
     text-decoration: none;
 }
-.description{
+ .description{
     background-color: #F3F5F8;
     border-radius: 4px;
     margin: 15px;
@@ -211,7 +211,7 @@ nav{
     padding-left: 25px;
     color: #293132;
     
-}
+} 
 .description:hover{
     background-color: #EAEAEA;
 }
