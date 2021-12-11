@@ -135,5 +135,61 @@ ul {
     color: #0f1928;
     
 }
+.indicate:hover{
+    background-color:#183663 !important;  
+    border:1px solid #183663;
+    padding: 10px;
+    width: 200px; 
+    border-radius: 8px;
+  }
+@media(min-width:320px) and (max-width:480px){
+    .left_content{
+        display: none;
+    }
+
+    .artical-img{
+        margin-top: -40px;
+    }
+    .tweet{
+        margin-top: 10px;
+    }
+    .tweet_image{
+        width: 100%;
+    }
+    .prasan_para{
+    margin-top: -40px;
+    margin-left: 50px;
+    }
+
+    .heart_span{
+        margin-left: 133px;
+        margin-top: -29px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+      .tweet{
+           margin-left: 120px;
+           margin-top: 10px;
+      }
+
+      .tweet_image{
+        width: 100%;
+    }
+
+    .heart_span{
+        margin-left: 250px;
+        margin-top: -29px;
+    }
+
+    .indicate:hover{
+        background-color:#183663 !important;  
+        border:1px solid #183663;
+        padding: 10px;
+        width: 200px; 
+        border-radius: 8px;
+      }
+}
+
 
 /*...........changes happened end here........*/
