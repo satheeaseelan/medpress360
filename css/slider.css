@@ -199,6 +199,9 @@ nav{
     padding: 50px 0px 50px 80px;
     justify-content: center;
 }
+.description-link{
+    text-decoration: none;
+}
 .description{
     background-color: #F3F5F8;
     border-radius: 4px;
@@ -206,6 +209,8 @@ nav{
     width: 280px;
     height: 280px;
     padding-left: 25px;
+    color: #293132;
+    
 }
 .description:hover{
     background-color: #EAEAEA;
@@ -237,13 +242,16 @@ nav{
     background-color: #F9FAFB;
    
 }
+.article-link{
+    text-decoration: none;
+}
 .article-space{
     padding-top: 20px;
-    
+    color: #000000;
 }
 .recent:hover{
     background-color: #EAEAEA;
-    border-bottom: 0;
+    
 }
 
 /* ----------------editorial board-------------*/
