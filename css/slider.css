@@ -195,23 +195,28 @@ nav{
     font-size: 16px;
 }
 /*Details about aims and scope end*/
-.publication{
+/* .publication{
     padding: 50px 0px 50px 80px;
     justify-content: center;
-}
+} */
 .description-link{
     text-decoration: none;
 }
  .description{
+     
     background-color: #F3F5F8;
     border-radius: 4px;
-    margin: 15px;
-    width: 280px;
-    height: 280px;
-    padding-left: 25px;
+    /* margin: 15px; */
+    /* width: 280px;
+    height: 280px; */
+    /* padding-left: 25px; */
     color: #293132;
+    padding: 20px 4px 20px 25px;
     
 } 
+section.publication {
+    margin-top: 61px;
+}
 .description:hover{
     background-color: #EAEAEA;
 }
@@ -228,6 +233,7 @@ nav{
     font-weight: 400;
 }
 .symbol{
+    
     background-color: #c7d2e3;
     width: 64px;
     height: 64px;
@@ -348,4 +354,19 @@ nav{
 }
     
 /*Footer part*/
+@media only screen and (max-width:980px){
+    .margin_b{
+ margin-bottom: 20px;
+     }
+ 
+ }
+@media only screen and (max-width:768px){
+    .description{
+        width: 100%;           
+    } 
+ 
+    .mar_sm{
+        margin-bottom: 20px;
+    }
 
+}
