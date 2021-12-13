@@ -128,7 +128,7 @@ ul {
 }
 
 /*...........changes happened start here........*/
-
+/*
 .indicate{
     
     text-decoration: none;
@@ -142,6 +142,20 @@ ul {
     width: 200px; 
     border-radius: 8px;
   }
+  */
+.indicate {
+    text-decoration: none;
+    color: #0f1928;
+    padding: 10px;
+    margin: 0;
+}
+.indicate:hover{
+    border:none;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(194, 219, 230);
+  }      
 @media(min-width:360px) and (max-width:480px){
     .left_content{
         display: none;
