@@ -210,10 +210,10 @@ ul {
 
 @media screen and (max-width:768px) {
     
-}
+
 .text-center{
     text-align: center;
     margin-left: 0;
+  }
 }
-
 /*...........changes happened end here........*/
