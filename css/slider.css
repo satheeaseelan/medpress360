@@ -362,10 +362,14 @@ section.publication {
     margin-left: 10px;
 }
 .expert-para{
+    font-size: 14px;
     font-weight: 400;
     padding-bottom: 60px;
 }
-
+.expert-lines{
+    border-bottom: 2px solid #293132;
+}
+    
     
 /*Footer part*/
 @media only screen and (max-width:980px){
