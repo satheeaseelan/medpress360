@@ -342,11 +342,13 @@ section.publication {
 .profile-details{
     font-size: 14px;
     font-weight: 500;
+    padding-left: 10px;
     
 }
 .university{
     font-size: 12px;
     font-weight:400 ;
+    padding-left: px;
 }
 /*expert heading*/
 .expert-peer-review-process{
