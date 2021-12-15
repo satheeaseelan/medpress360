@@ -246,7 +246,6 @@ section.publication {
 /*Recent articel*/
 .article{
     background-color: #F9FAFB;
-   
 }
 .article-link{
     text-decoration: none;
@@ -255,9 +254,11 @@ section.publication {
     padding-top: 20px;
     color: #000000;
 }
+.recent{
+    color: #000000;
+}
 .recent:hover{
     background-color: #EAEAEA;
-    
 }
 
 /* ----------------editorial board-------------*/
