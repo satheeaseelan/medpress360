@@ -4,8 +4,9 @@ body{
 }
 /*navbar*/
 nav{
-    margin: 20px 30px;
+    /*margin: 20px 30px;*/
     font-size: 1.2rem;
+    background: #f9fafb;
 }
 .span{
     font-size:50px;
@@ -15,7 +16,7 @@ nav{
     color: black;
     font-weight: bold;
     padding-top: 10px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .search-click {
     border: 1px solid #ccc;
@@ -92,11 +93,20 @@ nav{
     width: 20%;
   }
   .topRightMenu a {
-    padding-right: 3px;
+    padding-right: 4px;
     color: #6c757d;
   }
   #mhpNav {
 
   }
   #mhpVr {}
-  
+
+  @media(max-width:1200px){
+    .topRightMenu {
+      margin-top:  10px;
+      width: 100%;
+    }
+    #mhpVr {
+      display: none;
+    }
+  }

@@ -5,7 +5,7 @@ body{
 }
 /*navbar section*/
 nav{
-    margin: 20px 30px;
+    /*margin: 20px 30px;*/
     font-size: 1.1rem;
 }
 .navbar-brand{
@@ -53,15 +53,7 @@ nav{
     padding: 5px;
   }
   /*Search bar end*/
-  /*Register,login & profile*/
-  .profile{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding-top: 10px;
-    margin-left: 20px;
-}
-/*Register,login & profile end*/
+  
 /*Main title*/
 .maintitle1{
     font-family: 'Poppins', sans-serif;
