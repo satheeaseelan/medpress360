@@ -1,7 +1,7 @@
 
 window.addEventListener('click', function(e){
 	if (document.getElementById('searchInputBox').contains(e.target)){
-    if(this.screen.width > 1024)
+    if(this.screen.width > 768)
     {
       document.getElementById("mhpVr").style.display = "none";
       document.getElementById("mhpNav").style.display = "none";
