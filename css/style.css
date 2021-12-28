@@ -325,3 +325,13 @@ ul {
     
 }
 /*...........changes happened end here........*/
+
+/******** Contact Info **********/
+a.link-text01 { 
+    text-decoration: none;
+    color: #212529;
+}
+a.link-text01:hover { 
+    text-decoration:none;
+    font-weight: 600;
+}

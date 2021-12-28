@@ -298,7 +298,7 @@ section.publication {
     font-size: 14px;
 }
 .prasanna-place,.sanjiv-place{
-    font-family: 'Roboto'sans-serif;
+    /*font-family: 'Roboto'sans-serif;*/
     font-size: 12px;
     color:#ffffff;
     display: flex;
