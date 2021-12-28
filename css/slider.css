@@ -57,7 +57,8 @@ nav{
 /*Main title*/
 .maintitle1{
     font-family: 'Poppins', sans-serif;
-    padding:5% 10%;
+    padding:7% 10%;
+    height: 550px;
 }
 .maintitle2{
     font-family: 'Poppins', sans-serif;
