@@ -80,6 +80,9 @@ border: 1px solid;
 .abs_para1{
     font-size: 15px;
 }
+.tweet-content {
+    
+}
 .tweets{
     font-weight: bold;
 }
@@ -105,7 +108,9 @@ color: cornflowerblue;
 .prasanna_blog{
     font-size: 12px;
 }
-
+.tweet_image{ 
+    width: 100%;
+}
 
 /*****  Footer   *****/
 ul {
@@ -287,7 +292,80 @@ nav{
   }
   #mhpVr {}
 
- 
+
+/*** article styles ***/
+/* article cards css */
+section.article-content {
+    padding: 40px 0;
+}
+.bg-article .paragraph {
+    font-size: 14px;
+}
+
+.bg-article {
+    background-color: rgba(234, 238, 246, 0.719);
+}
+
+.set {
+    padding: 0 10px !important;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+}
+
+.card {
+    /*height: 120px;*/
+}
+
+.journal {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*above four cards css*/
+
+.card-height {
+    height: 235px;
+    background-color: rgba(234, 238, 246, 0.719) !important;
+}
+
+/*** inner page styles ***/
+.center_content {
+    padding: 0 20px;
+}
+
+
+ /*** Media query  ***/ 
+ @media(min-width:360px) and (max-width:480px){
+    .left_content{
+        display: none;
+    }
+
+    .artical-img{
+        margin-top: -40px;
+    }
+    .tweet{
+        margin-top: 10px;
+    }
+    .tweet_image{
+        width: 100%;
+    }
+    .prasan_para{
+    margin-top: -40px;
+    margin-left: 50px;
+    }
+
+    .heart_span{
+        /*margin-left: 133px;*/
+        text-align: right;
+        margin-top: -29px;
+        padding-right: 15px;
+    }
+}
+
+
+
 
 
   /************ slider styles ********/
@@ -493,7 +571,7 @@ nav{
      
     background-color: #F3F5F8;
     border-radius: 4px;
-    /* margin: 15px; */
+    margin: 15px; 
     /* width: 280px;
     height: 280px; */
     /* padding-left: 25px; */
@@ -538,8 +616,11 @@ section.publication {
     text-decoration: none;
 }
 .article-space{
-    padding-top: 20px;
+    padding: 20px;
     color: #000000;
+}
+.article-space img { 
+    width: 100%;
 }
 .recent{
     color: #000000;
@@ -659,7 +740,8 @@ section.publication {
 .expert-lines{
     border-bottom: 2px solid #293132;
 }
-    
+  
+
 
 /******* Login **********/
 
@@ -759,83 +841,12 @@ a {
     text-decoration: none;
 }
 
-/******** article styles ****/
-/* article cards css */
-section.article-content {
-    padding: 40px 0;
-}
-.bg-article .paragraph {
-    font-size: 14px;
-}
 
-.bg-article {
-    background-color: rgba(234, 238, 246, 0.719);
-}
-
-.set {
-    padding: 0 !important;
-    border-right: 1px solid #ededed;
-    border-bottom: 1px solid #ededed;
-    border-left: 1px solid #ededed;
-}
-
-.card {
-    /*height: 120px;*/
-}
-
-.journal {
-    cursor: pointer;
-    text-decoration: none;
-}
-
-
-/*above four cards css*/
-
-.card-height {
-    height: 235px;
-    background-color: rgba(234, 238, 246, 0.719) !important;
-}
-
-/*** inner page styles ***/
-.center_content {
-    padding: 0 20px;
-}
-
-
- /*** Media query  ***/ 
- @media(min-width:360px) and (max-width:480px){
-    .left_content{
-        display: none;
-    }
-
-    .artical-img{
-        margin-top: -40px;
-    }
-    .tweet{
-        margin-top: 10px;
-    }
-    .tweet_image{
-        width: 100%;
-    }
-    .prasan_para{
-    margin-top: -40px;
-    margin-left: 50px;
-    }
-
-    .heart_span{
-        /*margin-left: 133px;*/
-        text-align: right;
-        margin-top: -29px;
-        padding-right: 15px;
-    }
-}
-
-
-
+/*** Media query ***/
 
 @media(min-width:768px) and (max-width:1024px){
       .tweet{
-           margin-left: 120px;
+           /*margin-left: 120px;*/
            margin-top: 10px;
       }
 
@@ -1010,5 +1021,14 @@ section.article-content {
 @media only screen and (max-width:768px){
     .img {
         display: none;
+    }
+}
+@media (min-width:360px) and (max-width:576px) {
+    .left_content {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .tweet-content {
+        margin: 0 15px;
     }
 }
