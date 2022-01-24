@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/navJs.js"></script>
+        <title>Med Hub Press</title>
+    </head>
+
+<body>
+    <div>
+   <!-- header part - top nav Starts here -->
+    <div>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light topMenu">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="home.html"><img src="imgs/logowithtext.png" /></a>
+                <div class="d-none d-lg-block vr" id="mhpVr"></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul id="mhpNav" class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="journal.html" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Journal info <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="aimsScope.html">Aims &amp; Scope</a></li>
+                                <li><a class="dropdown-item" href="editorialBoard.html">Editorial Board</a></li>
+                                <li><a class="dropdown-item" href="submisssion.html">Submission Guidelines</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="submisssion.html">Submit manuscript</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="samplePub.html">Sample pub</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex" id="searchExtend">
+                        <form class="w-100 me-3">
+                            <input id="searchInputBox" type="search" class="form-control"
+                                placeholder="Search..." aria-label="Search" style="width: 100%;">
+                        </form>
+                    </div>
+                    <div class="topRightMenu">
+                        <a class="profile" href="singin.html">Register</a>
+                        <a class="profile" href="login.html">Login</a>
+                        <a href="#">
+                            <img src="imgs/profileimg.png" alt="mdo" width="32" height="32"
+                                class="rounded-circle">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    </div>
+<!-- header part - top nav Endss here -->
+    <div class="content-top">
+    <div class="container">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="imgs/articlesum7.png" alt="" width="100%" height="80px">
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3 col-lg-3 col-xl-3">
+                <div class="card card-border">
+                    <div class="card-body left_content">
+                        <div class="content mt-3 mx-3">
+                            <p>Contents</p>
+                        </div>
+                        <hr class="mt-4">
+                        
+                        <div class="card_height">
+                            
+                            <p class=""><a href="#AbstractContent" class="indicate"> Abstract </a></p>
+                            <p><a href="#introContent" class="indicate"> Introduction </a></p>
+                            <p><a href="#MaterialContent" class="indicate"> Materials and methods</a></p>
+                            <p><a href="#ResultContent" class="indicate" >Results</a></p>
+                            <p><a href="#DiscussionContent" class="indicate">Discussion</a></p>
+                            <p><a href="#DataContent" class="indicate">Data Availability statement</a>
+                            </p>
+                            <p><a href="#EthicsContent" class="indicate">Ethics Statement</a></p>
+                            <p><a href="#AuthorContent" class="indicate">Author Contributions</a></p>
+                            <p><a href="#FundingContent" class="indicate">Funding</a></p>
+                            <p><a href="#ConflictContent" class="indicate">Conflict of Interest</a></p>
+                            <p><a href="#PublisherContent" class="indicate">publisher's Note</a></p>
+                            <p><a href="#SupplementContent" class="indicate">Supplementary Material</a></p>
+                            <p><a href="#ReferencesContent" class="indicate">References</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-6 col-xl-6">
+                <div class="center_content">
+                <img src="imgs/articlesum7.png" alt="" width="100%" height="80px">
+
+                <h5 class="microrna mt-3">MICRORNA-377 SIGNALING MODULATES ANTICANCER DRUG-INDUCED CARDIOTOXICITY IN MICE
+                </h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repudiandae vero sequi, iure
+                    omnis sed, incidunt earum doloribus qui esse, explicabo aut soluta rerum aliquam dolores ducimus
+                    quas sapiente illo!</p>
+                    
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                            <button type="button" class="mt-1 button_article"><i class='bx bx-download'></i>
+                                Download article</button>
+                        </div>
+                        <div class="text-end col-sm-6 col-md-6 col-lg-6 col-xl-6 artical-img">
+                            <img src="imgs/twitter.png" alt="" width="40">
+                            <img src="imgs/facebook.png" alt="" width="40">
+                            <img src="imgs/linked in.png" alt="" width="40">
+                          
+                           
+                        </div>
+                    </div>
+
+
+                <hr class="down_art">
+                <div class="microrna_para">
+                    <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur voluptatibus
+                        laboriosam voluptate est aspernatur vero ratione corrupti</p>
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur voluptatibus
+                        laboriosam voluptate est aspernatur vero ratione corrupti</p>
+                    <p>3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur voluptatibus
+                        laboriosam voluptate est aspernatur vero ratione corrupti</p>
+                </div>
+
+                <div>
+                    <img src="imgs/articlesum7.png" alt="" width="100%" height="80px">
+                </div>
+                
+                <div class="mt-3">
+                    <a name="AbstractContent"></a>
+                    <p class="abs_para">Abstract</p>
+                    <p class="abs_para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, tenetur itaque
+                        dolorum, atque dolores quaerat perspiciatis tempora labore, provident aspernatur aliquid maiores
+                        quia! Quidem nihil et quia perferendis placeat.</p>
+                </div>
+                <div class="int_para1">
+                    <a name="introContent"></a>
+                    <p class="int_para">Introduction</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore debitis quas, veritatis
+                        explicabo illum delectus illo quaerat iure maxime dicta reiciendis? Minus fugit</p>
+
+                    <a name="MaterialContent"></a>
+                    <p class="int_para">Materials and methods</p>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos amet nihil tempore alias!
+                        Porro suscipit consequatur quidem molestiae adipisci cumque sequi. </p>
+
+                    <a name="ResultContent"></a>
+                    <p class="int_para">Results</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore debitis quas, veritatis
+                       explicabo illum delectus illo quaerat iure maxime dicta reiciendis? Minus fugit</p>
+
+                    <a name="DiscussionContent"></a>
+                    <p class="int_para">Discussion</p>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos amet nihil tempore alias!
+                        Porro suscipit consequatur quidem molestiae adipisci cumque sequi. </p>
+
+                    <a name="DataContent"></a>
+                    <p class="int_para">Data Availability Statement</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore debitis quas, veritatis
+                      explicabo illum delectus illo quaerat iure maxime dicta reiciendis? Minus fugit</p>
+
+                    <a name="EthicsContent"></a>
+                    <p class="int_para">Ethics Statement</p>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos amet nihil tempore alias!
+                        Porro suscipit consequatur quidem molestiae adipisci cumque sequi. </p>
+
+                    <a name="AuthorContent"></a>
+                    <p class="int_para">Author Contributions</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore debitis quas, veritatis
+                        explicabo illum delectus illo quaerat iure maxime dicta reiciendis? Minus fugit</p>
+
+                    <a name="FundingContent"></a>
+                    <p class="int_para">Funding</p>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos amet nihil tempore alias!
+                        Porro suscipit consequatur quidem molestiae adipisci cumque sequi. </p>
+
+                    <a name="ConflictContent"></a>
+                    <p class="int_para">Conflict of Interest</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore debitis quas, veritatis
+                          explicabo illum delectus illo quaerat iure maxime dicta reiciendis? Minus fugit</p>
+    
+                    <a name="publisherContent"></a>
+                    <p class="int_para">publisher's Note</p>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos amet nihil tempore alias!
+                            Porro suscipit consequatur quidem molestiae adipisci cumque sequi. </p>
+    
+                    <a name="SupplementContent"></a>
+                    <p class="int_para">Supplementary Material</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore debitis quas, veritatis
+                            explicabo illum delectus illo quaerat iure maxime dicta reiciendis? Minus fugit</p>
+    
+                    <a name="ReferencesContent"></a>
+                    <p class="int_para">References</p>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos amet nihil tempore alias!
+                            Porro suscipit consequatur quidem molestiae adipisci cumque sequi. </p>    
+                        
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <button type="button" class="mt-1 button_article"><i class='bx bx-download'></i>
+                            Download article</button>
+                    </div>
+                    <div class="text-end col-sm-6 col-md-6 col-lg-6 col-xl-6 artical-img">
+                        <img src="imgs/twitter.png" alt="" width="40">
+                        <img src="imgs/facebook.png" alt="" width="40">
+                        <img src="imgs/linked in.png" alt="" width="40">
+                      
+                       
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3">
+                <div class="tweet-content">
+                    <h5 class="tweets">Tweets</h5>
+                    <p class="tweets_para">by <span class="prasan_text-clr">@prasannalab</span></p>
+                    <div class="card card-border">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                    <img src="imgs/profile.jpg">
+                                </div>
+                                <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 prasanna_blog">
+                                    <p class="prasan_para">prasanna krishnamoorthy<br>by <span class="prasan_text-clr">@prasannalab</span></p>
+                                    <p>Lorem ipsum,sit amet consectetur! there here dolor sit amet consectetur! there
+                                        here!!!</p>
+                                </div>
+                            </div>
+                            <div><img src="imgs/color.jpg " class="tweet_image"></div>
+                            <div class="row">
+                                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 heart_span">
+                                    <span>1 day ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-border mt-4">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                    <img src="imgs/profile.jpg" >
+                                </div>
+                                <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 prasanna_blog">
+                                    <p class="prasan_para">prasanna krishnamoorthy<br>by <span class="prasan_text-clr">@prasannalab</span></p>
+                                    <p>Lorem ipsum,sit amet consectetur! there here dolor sit amet consectetur! there
+                                        here!!!</p>
+                                </div>
+                            </div>
+                            <div><img src="imgs/color.jpg " class="tweet_image"></div>
+                            <div class="row">
+                                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 heart_span">
+                                    <span class="">1 day ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- Footer Starts here-->
+    <div>
+        <div class="container-fluid bg footer-links mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mt-5 mb-5 text-white">
+                        <h6>Journal information</h6>
+                        <ul>
+                            <li><a href="overview.html">Aims & Scope</a></li>
+                            <li><a href="editorialBoard.html">Editorial Board</a></li>
+                            <li><a href="submisssion.html">Submission Guidelines</a></li>
+                            <li><a href="journal.html">Contact Editorial Office</a></li>
+                            <li><a href="submisssion.html">Submit your Menuscript</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 col-lg-6 mt-5 mb-5 text-white">
+                        <h6>Site map</h6>
+                        <ul>
+                            <li><a href="aboutmp.html">About MedPress360</a></li>
+                            <li><a href="journal.html">Contact us</a></li>
+                            <li><a href="privacyPolicy.html">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mt-5 mb-5"><a href="home.html"><img src="imgs/whitelogo.png" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 backg text-white">
+            <p class="text-center pt-1 pb-1"> Copyrights @ 2021 MedPress360</p>
+        </div>
+       </div>
+       <!-- Footer Ends here-->
+</div>
+</body>
+
+</html>
